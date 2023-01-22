@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[SDN for Mobile Networking]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[Meeting current market requirements is virtually impossible with traditional network architectures. Faced with flat or reduced budgets, enterprise IT departments are trying to squeeze the most from their networks using device-level management tools and manual processes. Carriers face similar challenges as demand for mobility and bandwidth explodes. Profits are being reduced by escalating capital equipment costs and flat or declining revenue.]]></pText>
+    </PageText>
+     <PageText>
+      <pText><![CDATA[Existing network architectures were not designed to meet the requirements of today’s users, enterprises and carriers. Network designers are constrained by the limitations of current networks, which include the following.]]></pText>
+    </PageText>
+      <PageText><pText><![CDATA[ <ol class="DecimalNumberClass">
+      <li><b>Complexity:</b> Networking technology to date has consisted largely of discrete sets of protocols designed to connect hosts reliably over arbitrary distances, link speeds and topologies. To meet business and technical needs over the last few decades, the industry has evolved networking protocols to deliver higher performance and reliability, broader connectivity and more stringent security. Protocols tend to be defined in isolation, however, with each solving a specific problem and without the benefit of any fundamental abstractions. This has resulted in one of the primary limitations of today’s network complexity. For example, to add or move any device, IT must touch multiple switches, routers, firewalls, Web authentication portals, etc. and update Access Control Lists (ACLs), Virtual LANs (VLANs), Quality of Services (QoS) and other protocol-based mechanisms using device-level management tools. In addition, network topology, vendor switch model and software version all must be taken into account. Due to this complexity, today’s networks are relatively static as IT seeks to minimize the risk of service disruption. The static nature of networks is in stark contrast to the dynamic nature of today’s server environment, where server virtualization has greatly increased the number of hosts requiring network connectivity and fundamentally altered assumptions about the physical location of hosts.</li>
+      
+      <li><b>Inconsistent policies:</b> To implement a network-wide policy, IT may have to configure thousands of devices and mechanisms. For example, every time a new virtual machine is brought up, it can take hours, in some cases days, for IT to reconfigure ACLs across the entire network. The complexity of today’s networks makes it very difficult for IT to apply a consistent set of access, security, QoS and other policies to increasingly mobile users, which leaves the enterprise vulnerable to security breaches, non-compliance with regulations and other negative consequences.</li>
+      <li><b>Inability to scale:</b> The network becomes vastly more complex with the addition of hundreds or thousands of network devices that must be configured and managed. IT has also relied on over subscription to scale the network, based on predictable traffic patterns. However, in today’s virtualized data centers, traffic patterns are incredibly dynamic and therefore unpredictable.</li>
+      <li><b>Vendor dependence:</b> Carriers and enterprises seek to deploy new capabilities and services in rapid response to changing business needs or user demands. However, their ability to respond is hindered by vendors’ equipment product cycles, which can range to three years or more. Lack of standard and open interfaces limits the ability of network operators to tailor the network to their individual environments. This mismatch between market requirements and network capabilities has brought the industry to a tipping point. In response, the industry has created the Software- Defined Networking (SDN) architecture and is developing associated standards.</li>
+      </ol>]]></pText> </PageText>
+       <PageText>
+      <pText><![CDATA[The important aspects of SDN for mobile networking are]]></pText>
+    </PageText>
+      <PageText><pText><![CDATA[ <ul class="ListClassDisc">
+      <li>Flow Table paradigm of SDN which is well suited for end –to-end communication over multiple technologies such as WiFi, 3G, 4G etc.</li>
+      <li>Logically centralized control which is particularly useful for efficient base station coordination for addressing inter-cell reference.</li>
+      <li>Path management in which data can be routed based on service requirements without depending on core routing policies.</li>
+      <li>Network virtualization which abstracts the physical resources from the network services. This helps in providing seamless connectivity and service differentiation among users.</li>
+      </ul>]]></pText> </PageText>
+       <PageText>
+      <pText><![CDATA[Figure 9.17 shows the diagram for interference management in Software Defined Wireless Mobile Network (SDWMN).]]></pText>
+    </PageText>
+    PageText>
+              <pText><![CDATA[<div class="BigImgClass"><img src="C:/Users/asus/Desktop/Project_Work_Chapter_9/images/14.png"></div>]]></pText>
+        </PageText>
+         <PageText>
+      <pText><![CDATA[Consider a traditional mobile network. When mobile equipment operates, it connects with a base station or access point for sending data back and forth. At the same time, the equipment may get affected by another access point which is known as interference. SDWMN tries to address the problem of interference with the help of SDN. In the above Figure, we can see an SDN controller and Virtualized Radio Resource Management Unit which takes care of interference. For example, the signals from eNodeB2 will not affect the signals eNodeB3 as shown in the Figure 9.17.]]></pText>
+    </PageText>
+     <PageText>
+      <pText><![CDATA[Mobile traffic management in Software Defined Wireless Mobile Network (SDWMN) is shown in Figure 9.18.]]></pText>
+    </PageText>
+    PageText>
+              <pText><![CDATA[<div class="BigImgClass"><img src="C:/Users/asus/Desktop/Project_Work_Chapter_9/images/15.png"></div>]]></pText>
+        </PageText>
+         <PageText>
+      <pText><![CDATA[In Figure 9.18, the Access Network Discovery and Service Function (ANDSF) takes care of the mobile traffic management in SDWMN. When a user moves, he can be first connected to WiFi and then to the cellular network 3G, 4G and so on the SDN enabled wireless networks takes care of the traffic management and connectivity.]]></pText>
+    </PageText>
+     <PageText>
+      <pText><![CDATA[The key benefits of SDN in mobile networks are centralized control of devices manufactured by multiple vendors, higher rate of integration of new services and abstract network control and management which includes networks abstracted from the user.]]></pText>
+    </PageText>
+
+
+
+
+                
+  </PageData>
+</main>

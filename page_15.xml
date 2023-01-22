@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[Ubi-Flow]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[An LVAP is basically a per-client, virtual AP. Every time a client performs a probe scan, a central controller spawns an LVAP on a physical AP close to the client. The LVAP is what responds to the client’s probe scan with a probe response. The client can then continue the regular 802.11 association handshake with the LVAP. Once this is done, an association is formed between a client device capable of mobility and an LVAP. At this point, the client is only concerned with getting ACKs for the data frames it generates and receiving beacons from its LVAP in a timely fashion. Just like virtual machines in a data center can be migrated to a different physical server, an LVAP can be migrated to another physical AP. If an LVAP is migrated to another physical AP fast enough such that it retains all the necessary state to maintain its associations and the client continues to receive ACKs and beacon frames, then the client can continue transmitting data frames without having to perform a re-association. Thus, an LVAP migration gives the effect of a handoff, without actually inducing a state machine change at the client and if this is done fast enough, the client won’t even notice any period of disconnectivity.]]></pText>
+    </PageText>
+     <PageText>
+      <pText><![CDATA[The key contributions of UbiFlow are:]]></pText>
+    </PageText>
+    <PageText><pText><![CDATA[ <ul class="ListClassDisc">
+    <li>A novel overlay structure to achieve mobility management and fault tolerance in software-defined IoT.</li>
+    <li>An optimal assignment algorithm for the controller to match the best available access points to IoT devices, with network status analysis and flow requests as inputs.</li>
+    <li>A load balancing scheme for distributed controllers by analyzing the variations in flow traffic characteristics.</li>
+    </ul>]]></pText> </PageText>
+    <PageText>
+              <pText><![CDATA[<div class="BigImgClass"><img src="C:/Users/asus/Desktop/Project_Work_Chapter_9/images/19.png"></div>]]></pText>
+        </PageText>
+
+                
+  </PageData>
+</main>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[Security in SDN]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[There is enhanced security while using SDN. The security is implemented using firewall, proxy, HTTP and Intrusion Detection System (IDS). Figure 9.11 shows a topology to implement security in SDN.]]></pText>
+    </PageText>
+    <PageText>
+              <pText><![CDATA[<div class="BigImgClass"><img src="C:/Users/asus/Desktop/Project_Work_Chapter_9/images/8.png"></div>]]></pText>
+        </PageText>
+          <PageText><pText><![CDATA[ <ol class="DecimalNumberClass">
+          <li>When an HTTP request comes, it is first forwarded to Firewall 1 (FW1).</li>
+          <li>From the Firewall 1, it is sent to Intrusion Detection System 1 (IDS1).</li>
+          <li>From (IDS1), it is sent to Proxy 1</li>
+          <li>Finally, it is sent from Proxy1 to the outside network.</li>
+          </ol>]]></pText> </PageText>
+
+                
+  </PageData>
+</main>

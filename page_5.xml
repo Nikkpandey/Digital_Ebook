@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[SDN Architecture]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[Software Defined networking (SDN) is an approach to using open protocols, such as OpenFlow, to apply globally aware software control at the edges of the network to access network switches and routers that typically would use closed and proprietary firmware. SDN is meant to address the fact that the static architecture of traditional networks is decentralized and complex while current networks require more flexibility and easy troubleshooting. SDN suggests centralizing network intelligence in one network component by disassociating the forwarding process of network packets (Data Plane) from the routing process (Control plane). The control plane consists of one or more controllers which are considered as the brain of SDN network where the whole intelligence is incorporated. Figure 9.5 shows the architecture of SDN.]]></pText>
+    </PageText>
+     <PageText>
+              <pText><![CDATA[<div class="BigImgClass"><img src="C:/Users/asus/Desktop/Project_Work_Chapter_9/images/5.png"></div>]]></pText>
+        </PageText>
+         <PageText>
+      <pText><![CDATA[The components or attributes of SDN are hardware switches, controller, applications, flow-rules and Application Programming Interfaces (API). The basic concept of SDN is to separate control logic from hardware switches. The control logic is defined in a centralized manner and controls the entire network including the switches. Communication between the application, control and data planes are done through APIs.]]></pText>
+    </PageText>
+     <PageText>
+      <pText><![CDATA[The Data plane contains various switches for forwarding. The Control plane contains the network operating system. At the top is the application plane which performs various functionalities like security, routing, traffic engineering and other applications. The concept of SDN is made possible through Network Function Virtualization. The interface between Application plane and Control plane is known as Northbound API whereas the interface between Control plane and Data plane is known as Southbound API. The protocol that supports Southbound API is the OpenFlow protocol. East-Westbound APIs are used to communicate among multiple controllers in the control layer.]]></pText>
+    </PageText>
+     <PageText>
+      <pText><![CDATA[The current status of SDN shows that companies such as Google have started to implement SDN at their data center networks. The current networks could be replaced with SDN in a phased manner. With SDN, operational cost and delay caused due to link failure can be significantly minimized. The two main challenges in the implementation of SDN are <br>(a) rule placement (b) controller placement</br>.]]></pText>
+    </PageText>
+                
+  </PageData>
+</main>

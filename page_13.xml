@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[Rule Placement at Access Devices]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[The challenges in Rule Placement at access devices in mobile networks are General OpenFlow protocol is not supported by wireless network and a modified version of OpenFlow is required. Typically, users are mobile in nature and network is highly dynamic. Frequent changes in Rule Placement are also required. Another challenge is the presence of heterogeneous devices in the network and how to support such heterogeneous devices in a single platform. The approaches for Rule Placement at access devices are ODIN, Ubi-Flow and Mobi-Flow.]]></pText>
+    </PageText>
+  </PageData>
+</main>

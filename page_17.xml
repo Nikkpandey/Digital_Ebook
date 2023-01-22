@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[Conclusion]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[This Chapter explains Software Defined Networking in detail. Limitations of current network, origin of SDN, SDN architecture, Rule Placement, OpenFlow protocol and Controller Placement are well explained. Security in SDN, integrating SDN in IoT, Software Defined WSN and SDN for mobile networking is described. Finally Rule Placement approaches at access devices including ODIN, Ubi-Flow and Mobi-Flow are clearly illustrated.]]></pText>
+    </PageText>
+                
+  </PageData>
+</main>

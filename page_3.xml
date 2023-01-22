@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[Limitations Of Current Network]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[Consider the scenario of current day networks. For this we are taking the example of a wired network with L3 switches. Figure 9.1 shows the network topology of current network.]]></pText>
+    </PageText>
+    <PageText>
+              <pText><![CDATA[<div class="BigImgClass"><img src="C:/Users/asus/Desktop/Project_Work_Chapter_9/images/1.jpg"></div>]]></pText>
+        </PageText>
+        <PageText>
+      <pText><![CDATA[The data needs to be send from user 1 to user 2 and vice versa as shown in Figure 9.1. The data can be sent through several routes. The packet traverses through multiple L3 switches before it reaches its destination. The protocol used for switching is the Open Shortest Path First (OSPF) protocol. Open Shortest Path First (OSPF) is a routing protocol for Internet Protocol (IP) networks. Each router knows to which router the packet needs to be sent based on the routing table it has. Each router doesn’t have a global view of the network as a whole.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[Consider the situation where one of the routers or switches has been attacked as shown in Figure 9.2. The attacked switch will be down for one reason or another.]]></pText>
+    </PageText>
+    <PageText>
+              <pText><![CDATA[<div class="BigImgClass"><img src="C:/Users/asus/Desktop/Project_Work_Chapter_9/images/2.jpg"></div>]]></pText>
+        </PageText>
+        <PageText>
+      <pText><![CDATA[In a traditional network, when a router is down, another route needs to be identified to transfer the packets. Since there is no centralized control over the routers this becomes a difficult task. So in a traditional network, when a switch is down, it can affect other switches also. Each router in a network has three layers comprising of hardware at the bottom layer, operating system running on top of the hardware and applications on the top most layer. The skeletal view of the traditional network with these layers is shown in Figure 9.3.]]></pText>
+
+    </PageText>
+    <PageText>
+              <pText><![CDATA[<div class="BigImgClass"><img src="C:/Users/asus/Desktop/Project_Work_Chapter_9/images/3.png"></div>]]></pText>
+        </PageText>
+        <PageText>
+      <pText><![CDATA[There are several limitations in current network which is given below.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[
+      <ul class="ListClassDisc">
+      <li>Centralized control of the network is not feasible in traditional networks. </li>
+      <li>Vendor-specific architecture of switches limits dynamic configuration according to application-specific requirements.</li>
+      <li>Each switch may have different operating system. Switches are required to configure according to the installed operating system.</li>
+      </ul>
+      ]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[In a traditional network, each router or switch will be running thousands of lines of code. Each router may comprise of millions of logic gates contributing to 10 GB RAM approximately, cost expensive and running various kinds of application programs such as routing, mobility management etc. Each of the routers in traditional network has specialized packet forwarding hardware, different operating system and different applications for routing, mobility management etc. The goal of the Software Defined Networking is to overcome the limitations or challenges of traditional network.]]></pText>
+    </PageText>
+
+                
+</PageData>
+</main>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[Origin of SDN]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[The concept of SDN is to separate the hardware from the operating system and application programs as shown in Figure 9.4.]]></pText>
+    </PageText>
+     <PageText>
+              <pText><![CDATA[<div class="BigImgClass"><img src="C:/Users/asus/Desktop/Project_Work_Chapter_9/images/4.png"></div>]]></pText>
+        </PageText>
+        <PageText>
+      <pText><![CDATA[The history of SDN principles can be traced back to the separation of the control and data plane first used in the public switched telephone network as a way to simplify provisioning and management well before this architecture began to be used in data networks. The Internet Engineering Task Force (IETF) began considering various ways to decouple the control and forwarding functions in a proposed interface standard published in 2004 appropriately named “Forwarding and Control Element Separation” (ForCES). The ForCES Working Group also proposed a companion SoftRouter Architecture. Additional early standards from the IETF that pursued separating control from data include the Linux Netlink as an IP Services Protocol and A Path Computation Element (PCE)-Based Architecture.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[These early attempts failed to gain traction for two reasons. One is that many in the Internet community viewed separating control from data to be risky, especially owing to the potential for a failure in the control plane. The second is that vendors were concerned that creating standard application programming interfaces (APIs) between the control and data planes would result in increased competition. The use of open source software in split control/data plane architectures traces its roots to the Ethane project at Stanford’s computer sciences department. Ethane’s simple switch design led to the creation of OpenFlow. An API for OpenFlow was first created in 2008. That same year witnessed the creation of NOX—an operating system for networks. Work on OpenFlow continued at Stanford, including with the creation of testbeds evaluating use of the protocol in a single campus network, as well as across the WAN as a backbone for connecting multiple campuses.]]></pText>
+    </PageText>
+    <PageText>
+      <pText><![CDATA[Beyond academia, the first deployments were by Nicira in 2010. The Open Networking Foundation was founded in 2011 to promote SDN and OpenFlow.]]></pText>
+    </PageText>
+                
+  </PageData>
+</main>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[Integrating SDN in IoT]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[In this section we will see how SDN can be used with IoT. There are several benefits of integrating SDN with IoT.]]></pText>
+    </PageText>
+      <PageText><pText><![CDATA[ <ol class="DecimalNumberClass">
+      <li>With SDN, intelligent routing decisions can be deployed.</li>
+      <li>Simplification of information collection, analysis and decision making.</li>
+      <li>Visibility of network resources which includes network management simplification based on user, device and application specific requirements.</li>
+      <li>Intelligent traffic pattern analysis and coordinated decisions.</li>
+      </ol>]]></pText> </PageText>
+       <PageText>
+      <pText><![CDATA[Consider the use of SDN for IoT as shown in Figure 9.12. In this there are several IoT devices in different sub-networks. The data from these devices through mobile access channels or fixed access channels are collected and transmitted to the data aggregator. The data aggregation from various IoT devices takes place at the data aggregator and then it passes through a transport network. From there it goes to different gateways and the packet segregation is done at the packet gateways. When we integrate SDN with IoT, we are going to integrate SDN controller with various devices, performs better orchestration of various devices and protocols that are running. Overall it will improve the service logic.]]></pText>
+    </PageText>
+    <PageText>
+              <pText><![CDATA[<div class="BigImgClass"><img src="C:/Users/asus/Desktop/Project_Work_Chapter_9/images/9.png"></div>]]></pText>
+        </PageText>
+         <PageText>
+      <pText><![CDATA[With the implementation of SDN, there is a centralized control of IoT devices like sensors, actuators, RFID tags etc. as shown in Figure 9.13.]]></pText>
+    </PageText>
+     <PageText>
+              <pText><![CDATA[<div class="BigImgClass"><img src="C:/Users/asus/Desktop/Project_Work_Chapter_9/images/10.png"></div>]]></pText>
+        </PageText>
+          <PageText>
+      <pText><![CDATA[The Rule-placement at access devices, while considering mobility and heterogeneity of end-users can be taken care by the fixed access channels, mobile access channels and intelligent aggregation as shown in Figure 9.14.]]></pText>
+    </PageText>
+      <PageText>
+              <pText><![CDATA[<div class="BigImgClass"><img src="C:/Users/asus/Desktop/Project_Work_Chapter_9/images/11.png"></div>]]></pText>
+        </PageText>
+         <PageText>
+      <pText><![CDATA[Rule Placement and traffic engineering at backbone networks is implemented by the Transport Network as shown in Figure 9.15.]]></pText>
+    </PageText>
+     <PageText>
+              <pText><![CDATA[<div class="BigImgClass"><img src="C:/Users/asus/Desktop/Project_Work_Chapter_9/images/12.png"></div>]]></pText>
+        </PageText>
+         <PageText>
+      <pText><![CDATA[Finally Flow classification and enhanced security at data center networks is done at packet gateways or data center networks as shown in Figure 9.16.]]></pText>
+    </PageText>
+         <PageText>
+              <pText><![CDATA[<div class="BigImgClass"><img src="C:/Users/asus/Desktop/Project_Work_Chapter_9/images/13.png"></div>]]></pText>
+        </PageText>
+
+
+
+
+                
+  </PageData>
+</main>

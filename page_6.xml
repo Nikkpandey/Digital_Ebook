@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <PageData>
+	<MainHeading><![CDATA[Rule Placement]]></MainHeading>
+    <SubHeading><![CDATA[]]></SubHeading>
+    <PageText>
+      <pText><![CDATA[Switches forward traffic based on a rule called “Flow Rule”. This is defined by the centralized controller. In the traditional network, there will be a routing table at every switch or router. Here in SDN, a Flow Table is maintained at every switch. Each entry in the Flow Table  is the Flow Rule. Each Rule has a specific format, which is defined by a protocol. In SDN, it is OpenFlow protocol. Figure 9.6 shows an example for Flow Rules based on OpenFlow protocol.]]></pText>
+    </PageText>
+     <PageText>
+              <pText><![CDATA[<div class="BigImgClass"><img src="C:/Users/asus/Desktop/Project_Work_Chapter_9/images/6.png"></div>]]></pText>
+        </PageText>
+         <PageText>
+      <pText><![CDATA[Consider the first row of the Flow Table. When a packet arrives at a router, it will check for the priority. If the priority matches, the values for Ingress port, MAC source address, MAC destination can be anything because it is a wildcard. If the protocol is TCP, IP destination is 10.1.1.20/32 and destination port is 60, then the instruction is “Forward to port 1”. Likewise other rows (Flow Rules) of the Flow Tables are used for routing.]]></pText>
+    </PageText>
+     <PageText>
+      <pText><![CDATA[The Flow Tables are stored at the switches. Flow Tables are stored in a specialized memory known as Ternary Content Addressable (TCAM) memory. The size of TCAM memory is limited and hence only a limited number of rules can be inserted. TCAM memories can do the processing very faster and that is why this memory is used at the switches. TCAM is very expensive also.]]></pText>
+    </PageText>
+     <PageText>
+      <pText><![CDATA[When a request is received for which no Flow Rule is present in the Flow Table, the switch send a PACKET-IN message to the controller. The controller then decides a suitable Flow Rule for the request and sends back to the switch. It is then inserted into the Flow Table. Whenever there is a new rule insertion, there will be a delay of 3-5 ms delay.]]></pText>
+    </PageText>
+     <PageText>
+      <pText><![CDATA[It is a challenging task to define or place the rules at switches while considering available TCAM. This is because TCAM is small and expensive and not easy to scale. Another challenge is how to define rules, so that less number of PACKET_IN messages is sent to the controller.]]></pText>
+    </PageText>
+                
+  </PageData>
+</main>
